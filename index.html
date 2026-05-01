@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog API Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1> Dog Explorer</h1>
+    <p class="subtitulo">Descubra cães aleatórios ou por raça</p>
+
+    <div class="busca">
+        <input type="text" id="raca" placeholder="Digite a raça (ex: husky)">
+        <button onclick="buscarDados()">Buscar</button>
+    </div>
+
+    <button class="random" onclick="buscarDados()">🎲 Aleatório</button>
+
+    <div id="resultado"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
